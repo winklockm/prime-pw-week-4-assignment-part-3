@@ -14,4 +14,6 @@ function addItem(item){
 
 // Testing
 
-console.log('expecting true: ', addItem('banana'));
+console.log('expecting true:', addItem('banana'));
+console.log('expecting true:', addItem('spinach'));
+console.log('expecting true:', addItem('strawberries'));
