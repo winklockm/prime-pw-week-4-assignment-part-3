@@ -16,6 +16,12 @@ function listItems(){
     }
 }
 
+function empty() {
+    basket = [];
+    console.log('basket emptied:')
+    return basket;   //instructions did not say to do a return but I did here
+}
+
 // Testing
 
 console.log('expecting true:', addItem('banana'));
@@ -23,3 +29,4 @@ console.log('expecting true:', addItem('spinach'));
 console.log('expecting true:', addItem('strawberries'));
 
 console.log(listItems()); //console shows "undefined" because function's return is not defined
+console.log('expecting []', empty());
