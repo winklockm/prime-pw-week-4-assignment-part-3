@@ -8,19 +8,21 @@ function addItem(item){
     console.log('add:', item);
     console.log('in your basket', basket);
     return true;
-}
-
-function listItems(){
-    for(item of basket){
-        console.log(item);
-    }
-}
+} // end addItem
 
 function empty() {
     basket = [];
     console.log('basket emptied:')
     return basket;   //instructions did not say to do a return but I did here
-}
+} // end empty
+
+function listItems(){
+    for(item of basket){
+        console.log(item);
+    }
+} // end listItems
+
+
 
 // Testing
 
